@@ -1,0 +1,73 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f141c4189e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+ <header class="header">
+        <div class="container clearfix">
+            <a class="brand" href="#">
+                <img src="./logo.png" alt="logo">
+            </a>
+            <nav class="nav">
+                <a href="#">HOME</a>
+                <a href="#">CONTACT</a>
+                <a href="#">HELP</a>
+            </nav>
+        </div>
+    </header>
+    <section class="gallery">
+        <div class="container clearfix">
+            <h1>GALLERY</h1>
+            <div class="col-1-3">
+                <img src="./assets/01.png" alt="pic1">
+    
+            </div>
+            <div class="col-1-3">
+                <img src="./assets/02.png" alt="pic2">
+    
+            </div>
+            <div class="col-1-3">
+                <img src="./assets/03.png" alt="pic3">
+    
+            </div>
+            <div class="col-1-3">
+                <img src="./assets/04.png" alt="pic4">
+    
+            </div>
+            <div class="col-1-3">
+                <img src="./assets/05.png" alt="pic5">
+    
+            </div>
+            <div class="col-1-3">
+                <img src="./assets/06.png" alt="pic6">
+    
+            </div>
+    
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="container Flex">
+            <small>&copy;altcampus</small>
+            <nav>
+                <a class="fa" href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                <a class="fa" href="#"><i class="fa-brands fa-twitter"></i></a>
+                
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
